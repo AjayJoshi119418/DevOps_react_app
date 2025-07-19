@@ -1,0 +1,59 @@
+.text{
+  font-weight: 550;
+}
+h1{
+  font-style: italic;
+  text-decoration: underline;
+}
+.textBox{
+  width:35%;
+  margin:auto 10px 20px auto;
+  border-radius: 30px;
+  height:30px;
+  padding-left:20px;
+  font-size: large;
+  font-family: cursive;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.addButton{
+  background-color:blue;
+  color:white;
+  height:30px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+}
+.ToDoItems{
+  border:1px solid black;
+  margin: 0 auto;
+  width:45%;
+  height:150px;
+  padding:10px;
+  border-radius: 10px;
+  font-family: cursive;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.ToDoItems:hover{
+  transform: scale(1.1);
+}
+.delete{
+  background-color: rgb(179, 245, 114);
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right:10px
+}
+.completed{
+  background-color:rgb(130, 253, 42);
+}
+.incomplete{
+  background-color:rgba(254, 23, 23, 0.998);
+}
+
+.App {
+  text-align: center;
+  border : solid black;
+  width:60%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: blueviolet;
+}
